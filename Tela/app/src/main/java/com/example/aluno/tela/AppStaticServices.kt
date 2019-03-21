@@ -1,7 +1,6 @@
-//package loginapp.example.fzlbpms.com.br.exampleloginapp
-package com.example.aluno.myapplication
+package com.example.aluno.tela
 
-class AppStaticServices{
+class AppStaticServices {
     companion object{
         public fun login (username:String, password:String) : Boolean {
             var ret: Boolean = false
